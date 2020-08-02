@@ -1,9 +1,16 @@
+# Weather On Mars - Elysium Plantitia
+
 Have you ever Know whats the weather on mars? Check the weather reports from NASA . 
 
 ### Screenshots
 
 <img src="./Screenshots/capture.png" width="100%"/>
 _The credit for the concept and most of the styling, goes to Web Dev Simplified.
+
+ ##### Weather Api used 
+ ```bash
+    https://api.nasa.gov/insight_weather/?api_key=?&feedtype=json&ver=1.0
+ ``` 
 
 ## Setup
 
@@ -27,7 +34,7 @@ npm start
 
  ##### To generate a production build, simply run
  ```bash
-    npm build
+npm build
  ``` 
 
 ## Learn More
