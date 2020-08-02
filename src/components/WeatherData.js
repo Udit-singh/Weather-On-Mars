@@ -1,7 +1,6 @@
 import React from "react";
+import { formatTemperature } from "../helpers";
 import { Wrapper, Date, Temp, Wind } from "./WeatherData.styles";
-import { formatTemp } from "../helpers";
-
 
 const WeatherData = ({ sol, isMetric }) => (
   <Wrapper>
@@ -14,7 +13,7 @@ const WeatherData = ({ sol, isMetric }) => (
       <h2 className="section-title">Temp</h2>
       <p className="reading">
         High:
-        <span> {formatTemp(sol.minTemp, isMetric)}</span>°
+        <span> {formatTemperature(sol.minTemp, isMetric)}</span>°
         <span>{isMetric ? "C" : "F"}</span>
       </p>
       <p className="reading">

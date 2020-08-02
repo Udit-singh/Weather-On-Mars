@@ -10,6 +10,7 @@ export const PreviousWrapper = styled.div`
   transform: ${({ previous }) =>
     previous ? "translateY(0)" : "translateY(60%)"};
   transition: -webkit-transform 350ms ease;
+  background: #ffffffc9;
   transition: transform 350ms ease;
   transition: transform 350ms ease, -webkit-transform 350ms ease;
   padding: 3rem;
